@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abdulrahman Ali — Computer Engineering student, competitive programmer, and photographer. Explore my portfolio of projects, skills, and photography.">
+    <title>Abdulrahman Ali | Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="PersonalWebPage.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar-custom" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">ABDULRAHMAN<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO (Dark) ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Abdulrahman <span class="accent">Ali</span><span class="hero-dot">.</span></h1>
+            <div class="hero-typed-wrapper">
+                <p class="hero-typed"><span id="typedText"></span><span class="cursor"></span></p>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary-custom">View My Work ↓</a>
+                <a href="#contact" class="btn-outline-custom">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT (Light) ========== -->
+    <section class="section section-light" id="about">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Get to know me</span>
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper reveal">
+                    <img src="PesonalWebPage PHOTOS/IMG_91891-1.jpg" alt="Abdulrahman Ali" class="about-image">
+                </div>
+                <div class="about-text reveal reveal-delay-1">
+                    <h3><span>Software Engineer</span></h3>
+                    <p>
+                        My name is Abdulrahman Ali. I'm a Computer Engineering student at the Arab Academy for Science
+                        and Technology <strong>(AAST)</strong>. After spending 18 years in Saudi Arabia, I moved to
+                        Egypt to pursue my passion for technology and innovation.
+                    </p>
+                    <p>
+                        Alongside my academic journey, I'm deeply interested in photography — a passion that has earned
+                        me several awards in various competitions. I'm always excited to learn about the latest
+                        technologies and enjoy discovering new things in this fast-changing field.
+                    </p>
+                    <div class="about-details">
+                        <div class="about-detail-item">
+
+                            <span class="label">Location</span>
+                            <span class="value">Alexandria, Egypt</span>
+                        </div>
+                        <div class="about-detail-item">
+                            <span class="label">University</span>
+                            <span class="value">AAST</span>
+                        </div>
+                        <div class="about-detail-item">
+                            <span class="label">Degree</span>
+                            <span class="value">Computer Engineering</span>
+                        </div>
+                        <div class="about-detail-item">
+                            <span class="label">Languages</span>
+                            <span class="value">English, Arabic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION (Light alt) ========== -->
+    <section class="section section-light" id="education" style="background: var(--bg-light-alt);">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Academic Background</span>
+                <h2 class="section-title">My <span>Education</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="education-wrapper reveal">
+                <img src="PesonalWebPage PHOTOS/aast-logo.png" alt="AAST Logo" class="education-logo">
+                <div class="education-card">
+                    <div class="education-info">
+                        <h3>Arab Academy for Science, Technology & Maritime Transport</h3>
+                        <p class="edu-degree">Bachelor's Degree in Computer Engineering</p>
+                        <p class="edu-location">Alexandria, Egypt</p>
+                        <span class="edu-date">Feb 2023 – Feb 2027</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE (Dark) ========== -->
+    <section class="section section-dark" id="experience">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Where I've worked</span>
+                <h2 class="section-title">My <span>Experience</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- AAST CP Club -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-company">AAST Competitive Programming Club</span>
+                            <span class="timeline-date">Oct 2025 – Present</span>
+                        </div>
+                        <div class="timeline-role">C++ Instructor & Head of Media</div>
+                        <div class="timeline-location">Alexandria, Egypt</div>
+                        <ul class="timeline-desc">
+                            <li>Coached over 100 Level 0 trainees in problem-solving fundamentals, guiding them to
+                                develop algorithmic thinking, improve coding skills, and prepare for contests such as
+                                ECPC.</li>
+                            <li>Led media operations, managing promotions, event coverage, and organizing workshops to
+                                promote problem-solving and programming culture across the club.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Outlier -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-company">Outlier</span>
+                            <span class="timeline-date">Oct 2025 – Present</span>
+                        </div>
+                        <div class="timeline-role">AI Model Tester</div>
+                        <div class="timeline-location">Remote</div>
+                        <ul class="timeline-desc">
+                            <li>Tested and validated AI-generated code across 10+ language models, identifying failure
+                                cases, debugging issues, and improving output quality through detailed evaluation and
+                                feedback.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- CIB -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-company">CIB Egypt (Commercial International Bank)</span>
+                            <span class="timeline-date">Aug 2025 – Sep 2025</span>
+                        </div>
+                        <div class="timeline-role">Intern</div>
+                        <div class="timeline-location">Egypt</div>
+                        <ul class="timeline-desc">
+                            <li>Gained insight into how CIB Egypt securely manages customer data, learned about data
+                                privacy and security standards, and developed strong communication skills in a corporate
+                                environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS (Light) ========== -->
+    <section class="section section-light" id="projects">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">What I've built</span>
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-icon">📱</div>
+                    <h3 class="project-name">CPClub Mobile App</h3>
+                    <p class="project-description">Built a mobile app for attendance tracking, announcements, and weekly
+                        session management with authentication and real-time updates.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                </div>
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-icon">🤖</div>
+                    <h3 class="project-name">RoboCup Junior – Rescue Simulation Robot</h3>
+                    <p class="project-description">Developed a Rescue Simulation robot program that secured 8th place in
+                        the 2025 RoboCup Junior – Egypt Competition.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Webots</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                </div>
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="project-icon">🧠</div>
+                    <h3 class="project-name">Client-Server Quiz System</h3>
+                    <p class="project-description">Built a multi-client quiz system using Python and socket programming,
+                        featuring a server for managing connections, quiz logic, and scoring, with a real-time
+                        interactive user interface.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Socket Programming</span>
+                        <span class="tech-tag">Tkinter</span>
+                    </div>
+                </div>
+                <div class="project-card reveal reveal-delay-3">
+                    <div class="project-icon">🎓</div>
+                    <h3 class="project-name">Student Registration System</h3>
+                    <p class="project-description">Built a Java-based student registration system using OOP, supporting
+                        course management, scheduling, and multiple user roles with database integration and GUI.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">JavaFX</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card reveal reveal-delay-4">
+                    <div class="project-icon">🌐</div>
+                    <h3 class="project-name">Personal Portfolio Website</h3>
+                    <p class="project-description">Developed a responsive personal portfolio website to showcase skills,
+                        projects, and experience with smooth animations and interactivity.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="github-cta reveal">
+                <a href="https://github.com/abdulrahman-aly" target="_blank" class="github-link">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    <span>View all projects on GitHub</span>
+                    <svg class="github-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+    </section>
+
+    <!-- ========== SKILLS (Dark) — Logo Grid ========== -->
+    <section class="section section-dark" id="skills">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">What I know</span>
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <p class="skills-sub-header reveal">Programming & Development</p>
+            <div class="skills-grid reveal">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                    <span>C</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="C++">
+                    <span>C++</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <span>Java</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart">
+                    <span>Dart</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        alt="React.js">
+                    <span>React.js</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                        alt="Flutter">
+                    <span>Flutter</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                        alt="Firebase">
+                    <span>Firebase</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                        alt="MongoDB">
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                        alt="Docker">
+                    <span>Docker</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        alt="GitHub" style="filter: invert(1);">
+                    <span>GitHub</span>
+                </div>
+            </div>
+
+            <p class="skills-sub-header reveal">Creative Tools</p>
+            <div class="skills-grid reveal" style="max-width: 600px;">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                        alt="Photoshop">
+                    <span>Photoshop</span>
+                </div>
+                <div class="skill-card">
+                    <img src="PesonalWebPage PHOTOS/adobe-lightroom-icon-free-png.png" alt="Lightroom">
+                    <span>Lightroom</span>
+                </div>
+                <div class="skill-card">
+                    <img src="PesonalWebPage PHOTOS/IMG_5799.PNG" alt="VN Video Editor" style="border-radius: 10px;">
+                    <span>VN Editor</span>
+                </div>
+                <div class="skill-card">
+                    <img src="PesonalWebPage PHOTOS/IMG_5802.PNG" alt="Lighting" style="border-radius: 10px;">
+                    <span>Lighting</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALLERY (Light) ========== -->
+    <section class="section section-light" id="gallery">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Through my lens</span>
+                <h2 class="section-title">Photo <span>Gallery</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_5196-3.jpg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Wildlife</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-1" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_5186-3.jpg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Wildlife</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-2" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_5183-3.jpg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Wildlife</span></div>
+                </div>
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_9168 3.JPG" alt="Cinematic Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Cinematic</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-1" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_9362-7.jpg" alt="Cinematic Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Cinematic</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-2" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_3395-2.jpg" alt="Cinematic Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Cinematic</span></div>
+                </div>
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_2995.jpg" alt="Islamic Architecture" loading="lazy">
+                    <div class="gallery-overlay"><span>Islamic Architecture</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-1" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_8345 6.jpg" alt="Islamic Architecture" loading="lazy">
+                    <div class="gallery-overlay"><span>Islamic Architecture</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-2" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_3902 3.JPG" alt="Islamic Architecture" loading="lazy">
+                    <div class="gallery-overlay"><span>Islamic Architecture</span></div>
+                </div>
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_2261 2.JPG" alt="Nature Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Nature</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-1" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_5426.jpg" alt="Nature Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Nature</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-2" onclick="openLightbox(this)">
+                    <img src="PesonalWebPage PHOTOS/IMG_3428.JPG" alt="Nature Photography" loading="lazy">
+                    <div class="gallery-overlay"><span>Nature</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <button class="lightbox-close" onclick="closeLightbox(event)">✕</button>
+        <img src="" alt="Full size photo" id="lightboxImg">
+    </div>
+
+    <!-- ========== AWARDS (Light alt) — With Logos ========== -->
+    <section class="section section-light" id="awards" style="background: var(--bg-light-alt);">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Recognition</span>
+                <h2 class="section-title">Awards & <span>Achievements</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card reveal">
+                    <img src="PesonalWebPage PHOTOS/ecpc logo white.png" alt="ECPC Logo" class="award-logo">
+                    <h3 class="award-title">ECPC Qualification 9th Place</h3>
+                    <p class="award-org">Egyptian Collegiate Programming Contest</p>
+                    <p class="award-desc">Secured 9th place out of 40 teams, demonstrating strong problem-solving and
+                        analytical skills.</p>
+                    <span class="award-date">Jul 2024</span>
+                </div>
+                <div class="award-card reveal reveal-delay-1">
+                    <img src="PesonalWebPage PHOTOS/ieee.png" alt="IEEEXtreme Logo" class="award-logo">
+                    <h3 class="award-title">IEEEXtreme 24-Hour Contest</h3>
+                    <p class="award-org">IEEEXtreme International</p>
+                    <p class="award-desc">Competed in a 24-hour international programming contest, enhancing the ability
+                        to solve complex problems and challenges.</p>
+                    <span class="award-date">Oct 2024</span>
+                </div>
+                <div class="award-card reveal reveal-delay-2">
+                    <img src="PesonalWebPage PHOTOS/aast-small-logo.png" alt="AAST Logo" class="award-logo">
+                    <h3 class="award-title">AAST Marketing Reel Competition Winner</h3>
+                    <p class="award-org">AAST College</p>
+                    <p class="award-desc">Secured first place in the college marketing reel competition.</p>
+                    <span class="award-date">Jul 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT (Dark) ========== -->
+    <section class="section section-dark" id="contact">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">Let's connect</span>
+                <h2 class="section-title">Follow My <span>Journey</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content reveal">
+                <p>I'm always open to new opportunities, collaborations, and conversations. Whether you have a project
+                    in mind, a question, or just want to say hello — feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/abdulrahman-aly-a62750267" target="_blank"
+                        class="contact-link">
+                        <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://www.instagram.com/abdulrahman.alyy" target="_blank" class="contact-link">
+                        <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        Instagram
+                    </a>
+                    <a href="https://www.facebook.com/share/PQ7mhPQQnmYu5n2R/" target="_blank" class="contact-link">
+                        <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        Facebook
+                    </a>
+                    <a href="https://x.com/abdulrahmanalyX" target="_blank" class="contact-link">
+                        <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        X (Twitter)
+                    </a>
+                </div>
+                <a href="mailto:abdulrahman.aly.abdullah@gmail.com" class="contact-email-btn">
+                    <span class="btn-icon">✉</span> Contact Me by Email
+                </a>
+            </div>
+            <div class="footer-bar">
+                <p>© 2026 Abdulrahman Ali. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="PersonalWebPage.js"></script>
+</body>
+
+</html>
